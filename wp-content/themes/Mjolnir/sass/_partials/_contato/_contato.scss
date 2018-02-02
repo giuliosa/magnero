@@ -1,0 +1,136 @@
+.contato{
+
+    &__title{
+        margin: 80px 40px;
+
+        p{
+            padding-right: 350px;
+            @media only screen and (max-width:767px) {
+                padding-right: 20px;
+            }
+        }
+    }
+
+
+    &__linha{
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        color: $cinza-claro;
+        background-image: url("./img/city.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        @media only screen and (max-width:767px) {
+            flex-direction: column;
+        }
+
+
+        &__endereco{
+            width: 25%;
+            text-align: center;
+            background: rgba(38,5,63, 0.9);   
+            padding:40px 20px;     
+            @media only screen and (max-width:767px) {
+                width: 100%;
+            }    
+
+            h3{
+                color:$cinza-claro;
+                font-size:28px;
+
+                &:after{
+                    content: "";
+                    display: block;
+                    height: 3px;
+                    width:60px;
+                    background: $cinza-claro;
+                    margin: 10px auto;
+                }
+            }
+
+            p{
+                font-size: 18px;
+                line-height: 40px;
+                @media only screen and (min-width:768px) and (max-width:991px) {
+                    font-size: 14px;
+                }
+            }
+        }
+
+        &__contatos{
+            width: 25%;
+            text-align: center;
+            background: rgba(243,97,95, 0.9);   
+            padding:40px 20px;   
+            @media only screen and (max-width:767px) {
+                width: 100%;
+            }    
+            
+            h3{
+                color:$cinza-claro;
+                font-size:28px;
+
+                &:after{
+                    content: "";
+                    display: block;
+                    height: 3px;
+                    width:60px;
+                    background: $cinza-claro;
+                    margin: 10px auto;
+                }
+            }
+
+            p{
+                font-size: 18px;
+                line-height: 40px;
+                @media only screen and (min-width:768px) and (max-width:991px) {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    &__formulario{
+        p{
+            text-align: center;
+            padding:0 200px;
+            margin-bottom: 20px;
+            @media only screen and (max-width:767px) {
+                padding: 0 20px;
+            }
+        }
+    }
+
+    &--mapa{
+        width: 50%;
+        height: 300px;
+        // overflow: visible !important;
+        // position: unset !important;
+
+        @media only screen and (max-width:767px) {
+            width: 100%;
+        }
+    }
+}
+
+ /* Tela de Tablet */
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .contato{
+
+        
+        &--mapa{
+            height: auto;
+
+        }
+    }
+}
+
+
+/*Tela de telefone*/
+
+@media only screen and (max-width:767px) {
+   
+}

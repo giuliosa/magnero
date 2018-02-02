@@ -1,0 +1,37 @@
+.newsletter{
+    padding: 40px 20px ;
+    background: $salmao;
+    background: -webkit-linear-gradient( $salmao , $roxo); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient( $salmao , $roxo); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient( $salmao , $roxo); /* For Firefox 3.6 to 15 */
+    background: linear-gradient( $salmao , $roxo); /* Standard syntax */
+
+    h2{
+        color: $cinza-claro;
+
+        &:after{
+            background-color: $cinza-claro;
+        }
+    }
+
+    &__linha{
+        display: flex;
+        flex-direction: row;        
+        margin: 0 auto;
+        width: 400px;
+
+        @media only screen and (max-width:767px) {
+            width: 300px;
+            flex-direction: column;
+        }
+
+
+        button{
+            margin-left: 15px;
+
+             @media only screen and (max-width:767px) {
+                margin: 20px auto 0 auto;
+            }
+        }
+    }
+}

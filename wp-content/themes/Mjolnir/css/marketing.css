@@ -1,0 +1,510 @@
+
+header .menu-branco .container .menu-burguer {
+    color: #f1f1f1 !important;
+}
+
+/* Banner */
+ .banner-marketing{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-image: url("../img/web/banner-marketing.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+    padding: 80px 40px;
+ }
+
+ .banner-marketing h1{
+    margin: 170px 0 40px 0;
+    font-size: 52px;
+    color: #eff0f4;
+    font-weight: bolder;
+    text-transform: uppercase;
+ }
+
+ .banner-marketing p{
+    margin-bottom: 80px;
+    font-size: 20px;
+    color: #eff0f4;    
+ }
+
+ .banner-marketing .botao{
+    height: 50px;
+    font-family: 'Exo 2', sans-serif;
+    /* display: block; */
+    border: none;
+    /* margin: 0 auto; */
+    width: 170px;
+    font-size: 16px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #eff0f4;
+    background-color: #415f9d;
+    transition: all .3s ease;
+    padding: 15px 10px;
+ }
+ 
+ .banner-marketing .botao:hover{
+    background-color: #233b6e;
+
+ } 
+
+ /* Serviços */
+
+ .servicos-marketing{
+     margin-top:570px;
+     padding: 0;
+     display: flex;
+     background-color: #233b6e;
+     height: 100%;
+ }
+
+ .servicos-marketing h5{
+     text-transform:  uppercase;
+     font-size: 30px;
+ }
+
+ /* Lista */
+
+ .lista-servicos{
+     width: 66.6666666667%;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .lista-servicos .servico-bloco{
+     display: flex;
+     height: 270px;
+ }
+
+ .lista-servicos .foto-servico{
+     width: 50%;
+}
+.lista-servicos .foto-servico img{
+    width: 100%;
+    height: 270px;
+}
+
+ .lista-servicos .corpo-servico{
+    padding: 20px;
+    width: 50%;
+    background-color: #eff0f4;
+    
+ }
+
+ .lista-servicos .servico-bloco:nth-child(2){
+     flex-direction: row-reverse;
+ }
+ /* Aside Serviços */
+ .aside-servicos{
+     width: 33.3333333333%;
+     height: 100%;
+ }
+
+ .aside-servicos img{
+    width: 100%;
+    height: 540px;
+ }
+
+ .aside-servicos .titulo-servico{
+    text-align: center;
+    display: flex;
+    /* padding: ; */
+    color:#eff0f4;
+    background-color: #415f9d;
+    background: -webkit-linear-gradient( #415f9d , #233b6e);
+    background: -webkit-linear-gradient( #415f9d , #233b6e); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient( #415f9d , #233b6e); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient( #415f9d , #233b6e); /* For Firefox 3.6 to 15 */
+    background: linear-gradient( #415f9d , #233b6e); /* Standard syntax */
+    justify-content: center;
+    align-items: center;
+    height: 270px;
+ }
+
+ /* Seção Como Funciona */
+
+ .como-funciona{
+     text-align: center;
+     margin-bottom: 310px;
+ }
+
+ .como-funciona h3{
+     font-size: 36px;
+     margin-bottom: 40px;
+ }
+
+ .como-funciona ul li{
+     display: inline-block;
+     margin: 0 30px;
+     cursor: pointer;
+ }
+
+ .como-funciona ul h6{
+    text-transform:  uppercase;
+    color: #3e3e3e;     
+    font-size: 15px;
+ }
+
+ .como-funciona ul p{
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+ } 
+
+ .como-funciona ul img{
+     width: 40px;
+ }
+ 
+ .como-funciona .passos .passo-detalhe{
+    display: -webkit-flex;
+    display: flex;
+    margin-top: 40px;
+    text-align: left;
+    padding: 0 60px;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+ }
+
+ [data-target].active {
+	opacity: 1;
+	visibility: visible;
+	transition: .3s;
+	position: relative;
+	top: auto;
+	transform: translate3d(0px,0,0);
+}
+
+.como-funciona .passos .passo-detalhe.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+ .como-funciona .passos .passo-detalhe img{
+    width: 290px;
+ }
+
+ .como-funciona .passos .passo-detalhe .corpo-passo{
+    padding: 0 30px;
+} 
+
+ .como-funciona h5{
+     text-transform:  uppercase;
+     font-size: 30px;
+ }
+
+ /* Trabalhos */
+
+ .portifolio-marketing{
+     text-align: center;
+     padding: 0;
+ }
+
+ .portifolio-marketing h3{
+     font-size: 36px;     
+ } 
+
+ .portifolio-marketing p{
+     margin-bottom: 40px;
+ } 
+
+ .portifolio-marketing .fotos-trabalhos{
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     
+ }
+
+ .portifolio-marketing .fotos-trabalhos img{
+    width: calc(100%/3);
+    /* margin: 10px 5px; */
+
+ }
+
+ /* Produtos */
+ .detalhe-produto{
+     padding: 0;
+ }
+
+ .detalhe-produto .contato-interno{
+     padding-top: 0;
+ }
+
+ .up-this-please {
+     margin-top: 298px;
+
+ }
+
+.linha-produto{
+    display: flex;
+}
+
+.linha-produto .col-50{
+    width: 50%;
+    padding: 20px 40px ;
+}
+
+.linha-produto .col-50 h3{
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+
+.linha-produto .descricao-produto{
+    background-color: #415f9d;
+    color: #eff0f4;
+}
+
+.linha-produto .info-flex{
+    display: flex;
+    
+}
+
+.linha-produto .info-produto .detalhes-tabela{
+    margin: 15px 0;
+}
+
+.linha-produto .info-produto ul{
+    list-style-type: disc;
+    padding: 0 20px;
+}
+
+.linha-produto .info-produto li{
+    font-size: 12px;
+    
+}
+
+.linha-produto .info-produto .col-normal, 
+.linha-produto .info-produto .col-destaque{
+    background: #f1f1f1;
+    
+    margin-right: 2px;
+    padding: 0;
+}
+
+.linha-produto .info-produto .col-normal,
+.linha-produto .info-produto .col-destaque{
+    width: calc(100%);
+}
+
+
+.linha-produto .info-produto .col-normal .head-tabela{
+    background: #d3d6db;
+    color: #3e3e3e;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.linha-produto .info-produto .col-destaque .head-tabela{
+    background: #233b6e;
+    color: #eff0f4;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.linha-produto .info-produto .col-normal .head-tabela h5,
+.linha-produto .info-produto .col-destaque .head-tabela h5{
+    margin: 0;
+    font-size: 20px;
+}
+
+.linha-produto .diferenciais-produto{
+    background-color: #415f9d;
+    color: #eff0f4;
+}
+
+.form-produto{
+    /* padding: 0 80px; */
+    font-size: 16px;
+}
+
+.form-produto h3{
+    font-size: 26px;
+}
+
+.diferenciais-produto h5{
+    font-size: 20px;
+}
+
+.diferenciais-produto .dif-ajuste{
+    display: flex;
+    margin-top: 30px;
+}
+
+.diferenciais-produto ul{
+    margin-top:50px;
+}
+
+.diferenciais-produto img{
+    width: 80px;
+    margin-right: 40px;
+}
+
+
+/*Responsivo*/
+/*Tela média*/
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    /* Single Produtos */
+    /* Tabela de preços */
+    .linha-produto .info-produto .col-normal .head-tabela h5,
+    .linha-produto .info-produto .col-destaque .head-tabela h5{
+        font-size:16px;
+    }
+}
+
+/*Tela de tablet*/
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .banner-marketing h1{
+        font-size: 38px;
+    }
+
+    .banner-marketing p{
+        font-size: 16px;
+    }
+
+    .servicos-marketing{
+        margin-top:530px;
+    }
+
+    .aside-servicos{
+        opacity: 0;
+        visibility: hidden;
+        width: 0;
+    }
+
+    .lista-servicos{
+        width: 100%;
+    }
+
+    .como-funciona ul li{
+        margin: 0 15px;
+    }
+
+    /* Single Produtos */
+    /* Tabela de preços */
+    .linha-produto .info-produto .col-normal .head-tabela h5,
+    .linha-produto .info-produto .col-destaque .head-tabela h5{
+        font-size:16px;
+    }
+
+    .linha-produto .info-flex{
+        flex-wrap: wrap;
+    }
+
+}
+
+
+/*Tela de telefone*/
+
+@media only screen and (max-width:767px) {
+    .banner-marketing h1{
+        margin: 120px 0 40px 0;
+        font-size: 38px;
+    }
+
+    .banner-marketing p{
+        font-size: 16px;
+    }
+
+    .servicos-marketing{
+        margin-top:525px;
+    }
+
+    .lista-servicos .servico-bloco, 
+    .lista-servicos .servico-bloco:nth-child(2){
+        flex-direction: column;
+    }
+
+    .lista-servicos .servico-bloco .foto-servico{
+        opacity: 0;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+
+    .lista-servicos .servico-bloco .corpo-servico{
+        width: 100%;
+        height: 265px;
+    }
+    
+    .lista-servicos .servico-bloco button{
+        margin-top: 30px;
+    }
+    
+
+    .aside-servicos{
+        opacity: 0;
+        visibility: hidden;
+        width: 0;
+    }
+
+    .lista-servicos{
+        width: 100%;
+    }
+
+     .como-funciona{
+        margin-bottom: 120px;
+    }
+
+    .como-funciona ul li{
+        margin: 0 15px;
+        display: block;
+        text-align: left;
+        cursor: auto;
+    }
+   
+    .como-funciona ul p{
+        opacity: 1;
+        visibility: visible;
+        display: block;
+    } 
+
+    .head-lista{
+        display: flex;
+        margin-bottom: 15px;
+    }
+
+    .como-funciona ul h6{
+        margin-left: 15px;
+        font-size: 20px;
+    }
+
+    .passo-detalhe, .passo-detalhe.active, [data-target].active{
+        opacity: 0 !important;
+        visibility: hidden !important;
+        display: none !important;
+    }
+
+    .portifolio-marketing .fotos-trabalhos img{
+        width: calc(100%);
+        margin: 10px 5px;
+
+    }
+
+     /* Single Produtos */
+     .up-this-please {
+        margin-top: 284px;
+    }
+
+    .linha-produto{
+        flex-direction: column;
+    }
+
+    .linha-produto .info-flex{
+        flex-wrap: wrap;
+    }
+
+    .linha-produto .col-50{
+        width: 100%;
+        padding: 20px 40px ;
+    }
+}
+

@@ -1,0 +1,84 @@
+.sobre{
+    &__title{
+        margin: 80px 40px;
+        p{
+            padding-right: 350px;
+            
+            @media only screen and (max-width:767px) {
+                padding-right: 20px;
+            }
+        }
+    }
+}
+
+.filosofia{
+    display: flex;
+    @media only screen and (max-width:767px) {
+        flex-direction: column;
+    }
+    
+    &__bloco{
+        width: 75%;
+        display: flex;
+        flex-direction: row;
+        background: $salmao;
+        padding: 40px;
+
+        @media only screen and (max-width:767px) {
+            padding: 30px 20px;
+            margin:0;
+            flex-direction: column;
+            border-radius: 0; 
+            width: 100%;
+            
+        }
+
+        h2{
+            text-align: right;
+            font-size: 40px;
+            color: $cinza-claro;
+            margin-right: 15px;
+            @media only screen and (max-width:767px) {
+                font-size: 30px;
+                text-align: left;
+            }
+        }
+
+        p{
+            color: $cinza-claro;
+            margin-top: 10px;
+
+            &:after{
+                content:"";
+                display: block;
+                margin-top: 10px;
+                width: 120px;
+                height: 2px;
+                background-color: $cinza-claro;
+            }
+        }
+     }
+    
+     &__about{
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: $roxo;
+        @media only screen and (max-width:767px) {
+            width: 100%;
+            padding: 40px;
+        }        
+        
+
+        h4{
+            color: $cinza-claro;
+            font-size: 38px;
+            margin-bottom: 30px;
+            @media only screen and (min-width:768px) and (max-width:991px) {
+                font-size: 28px;
+            }
+        }
+     }
+ }

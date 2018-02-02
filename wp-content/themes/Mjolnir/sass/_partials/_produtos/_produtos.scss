@@ -1,0 +1,178 @@
+ /* Produtos */
+ .detalhe-produto{
+     padding: 0;
+ }
+
+ .detalhe-produto .contato-interno{
+     padding-top: 0;
+ }
+
+ .up-this-please {
+     margin-top: 298px;
+
+ }
+
+.linha-produto{
+    display: flex;
+}
+
+.linha-produto .col-50{
+    width: 50%;
+    padding: 20px 40px ;
+}
+
+.linha-produto .col-50 h3{
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+
+.linha-produto .descricao-produto{
+    background-color: #415f9d;
+    color: #eff0f4;
+}
+
+.linha-produto .info-flex{
+    display: flex;
+    
+}
+
+.linha-produto .info-produto .detalhes-tabela{
+    margin: 15px 0;
+}
+
+.linha-produto .info-produto ul{
+    list-style-type: disc;
+    padding: 0 20px;
+}
+
+.linha-produto .info-produto li{
+    font-size: 12px;
+    
+}
+
+.linha-produto .info-produto .col-normal, 
+.linha-produto .info-produto .col-destaque{
+    background: #f1f1f1;
+    
+    margin-right: 2px;
+    padding: 0;
+}
+
+.linha-produto .info-produto .col-normal,
+.linha-produto .info-produto .col-destaque{
+    width: calc(100%);
+}
+
+
+.linha-produto .info-produto .col-normal .head-tabela{
+    background: #d3d6db;
+    color: #3e3e3e;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.linha-produto .info-produto .col-destaque .head-tabela{
+    background: #233b6e;
+    color: #eff0f4;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.linha-produto .info-produto .col-normal .head-tabela h5,
+.linha-produto .info-produto .col-destaque .head-tabela h5{
+    margin: 0;
+    font-size: 20px;
+}
+
+.linha-produto .diferenciais-produto{
+    background-color: #415f9d;
+    color: #eff0f4;
+}
+
+.form-produto{
+    /* padding: 0 80px; */
+    font-size: 16px;
+}
+
+.form-produto h3{
+    font-size: 26px;
+}
+
+.diferenciais-produto h5{
+    font-size: 20px;
+}
+
+.diferenciais-produto .dif-ajuste{
+    display: flex;
+    margin-top: 30px;
+}
+
+.diferenciais-produto ul{
+    margin-top:50px;
+}
+
+.diferenciais-produto img{
+    width: 80px;
+    margin-right: 40px;
+}
+
+
+/*Responsivo*/
+/*Tela média*/
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    /* Single Produtos */
+    /* Tabela de preços */
+    .linha-produto .info-produto .col-normal .head-tabela h5,
+    .linha-produto .info-produto .col-destaque .head-tabela h5{
+        font-size:16px;
+    }
+}
+
+/*Tela de tablet*/
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    
+    /* Single Produtos */
+    /* Tabela de preços */
+    .linha-produto .info-produto .col-normal .head-tabela h5,
+    .linha-produto .info-produto .col-destaque .head-tabela h5{
+        font-size:16px;
+    }
+
+    .linha-produto .info-flex{
+        flex-wrap: wrap;
+    }
+
+}
+
+/*Tela de telefone*/
+
+@media only screen and (max-width:767px) {
+    
+   
+    .portifolio-marketing .fotos-trabalhos img{
+        width: calc(100%);
+        margin: 10px 5px;
+
+    }
+
+     /* Single Produtos */
+     .up-this-please {
+        margin-top: 284px;
+    }
+
+    .linha-produto{
+        flex-direction: column;
+    }
+
+    .linha-produto .info-flex{
+        flex-wrap: wrap;
+    }
+
+    .linha-produto .col-50{
+        width: 100%;
+        padding: 20px 40px ;
+    }
+}

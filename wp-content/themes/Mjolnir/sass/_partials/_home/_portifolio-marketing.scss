@@ -1,0 +1,55 @@
+/* Trabalhos */
+
+ .portifolio-marketing{
+    text-align: center;
+    padding: 40px 0 0 0;
+
+    h3{
+        font-size: 36px;     
+    } 
+
+    p{
+        margin-bottom: 40px;
+    } 
+
+    &__linha{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        // background: $roxo;
+        padding: 60px 0;
+
+        &__cliente{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-right: 30px;
+            margin-bottom: 20px;
+
+            img{
+                -webkit-filter: grayscale(100%);
+                -moz-filter: grayscale(100%);
+                -ms-filter: grayscale(100%);
+                -o-filter: grayscale(100%);
+                filter: grayscale(100%);
+                width: 150px;
+                transition: .3s all ease;
+                margin-bottom: 36px;
+                &:hover{
+                    transform: scale(1.1,1.1);   
+                    -webkit-filter: grayscale(0);
+                    -moz-filter: grayscale(0);
+                    -ms-filter: grayscale(0);
+                    -o-filter: grayscale(0);
+                    filter: grayscale(0);
+                }
+            }
+        }
+        
+
+        
+    }
+ }

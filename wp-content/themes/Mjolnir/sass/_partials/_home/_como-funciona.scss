@@ -1,0 +1,141 @@
+ [data-target].active {
+	opacity: 1;
+	visibility: visible;
+	transition: .3s;
+	position: relative;
+	top: auto;
+	transform: translate3d(0px,0,0);
+}
+/* Seção Como Funciona */
+
+.como-funciona{
+    text-align: center;
+    padding-top:40px;
+        
+    h3{
+        font-size: 36px;
+        margin-bottom: 40px;
+    }
+
+    h5{
+        text-transform:  uppercase;
+        font-size: 30px;
+        color: $cinza-claro;
+        margin-bottom: 15px;
+    }
+
+    &__lista {
+        li{
+            display: inline-block;
+            margin: 30px 30px;
+            cursor: pointer;
+        }
+
+        h6{
+            text-transform:  uppercase;
+            color: #3e3e3e;     
+            font-size: 15px;
+        }
+
+        p{
+            opacity: 0;
+            visibility: hidden;
+            display: none;
+            margin-bottom: 40px;
+        } 
+
+        img{
+            width: 60px;
+            height: 60px;
+            padding: 10px;
+            background: $roxo;
+            border-radius: 50%;
+            transition: .2s all ease;
+
+            &:hover{
+                transform: scale(1.1,1.1);  
+            }
+        }
+    }
+
+    &__passo-detalhe{
+        display: -webkit-flex;
+        display: flex;
+        margin-top: 40px;
+        text-align: left;
+        padding: 20px 60px;
+        position: absolute;
+        opacity: 0;
+        visibility: hidden;
+        background: -webkit-linear-gradient(to left, $salmao , $roxo);
+        background: -webkit-linear-gradient(to left, $salmao , $roxo); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(to left, $salmao , $roxo); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(to left, $salmao , $roxo); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to left, $salmao , $roxo); /* Standard syntax */
+
+        &.active{
+            opacity: 1;
+            visibility: visible;
+        }
+
+        img{
+            width: 200px;
+            margin-right: 60px;
+        }
+
+        .corpo-passo{
+            padding: 0 30px;
+            color: $cinza-claro;
+        }
+    }
+}
+ 
+/*Tela de tablet*/
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .como-funciona ul li{
+        margin: 0 15px;
+    }
+}
+
+ /*Tela de telefone*/
+
+
+@media only screen and (max-width:767px) {
+    
+    .como-funciona{
+        margin-bottom: 120px;
+        &__lista{
+            li{
+                margin: 0 15px;
+            display: block;
+            text-align: left;
+            cursor: auto;
+            }
+
+            p{
+                opacity: 1;
+                visibility: visible;
+                display: block;
+            } 
+
+            .head-lista{
+                display: flex;
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+    
+
+    .como-funciona ul h6{
+        margin-left: 15px;
+        font-size: 20px;
+    }
+
+    .passo-detalhe, .passo-detalhe.active, [data-target].active{
+        opacity: 0 !important;
+        visibility: hidden !important;
+        display: none !important;
+    }
+}

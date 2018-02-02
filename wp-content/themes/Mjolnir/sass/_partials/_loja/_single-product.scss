@@ -1,0 +1,110 @@
+.product{
+    &__lista-descricao{
+        display: flex;
+        margin-top: 80px;
+        margin-bottom: 40px;
+        @media only screen and (max-width:767px) {
+            flex-direction: column;
+            .summary{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;       
+            }
+        }
+        .woocommerce-product-gallery{
+            @media only screen and (min-width:768px) and (max-width:991px) {
+                width: 60%;
+            }
+            &__image{
+                a{
+                    border: none;
+                    img{
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+            }
+        }
+
+        
+    }    
+
+    .woocommerce-tabs{
+        display: flex;
+        @media only screen and (max-width:767px) {
+            flex-direction: column;
+        }        
+        .tabs{
+            display: none;
+            overflow: hidden;
+        }
+
+        .woocommerce-Tabs-panel{
+            width: 100%;
+            margin-bottom: 40px;
+
+            h2{
+                padding: 20px 40px;
+                margin-bottom: 40px;
+                text-align: left;
+                &:after{
+                    display: none;
+                }
+
+                @media only screen and (min-width:768px) and (max-width:991px) {
+                    font-size: 26px;
+                }
+            }
+
+            &--description{
+                h2{
+                    background: $roxo;
+                    color: $cinza-claro;
+                }
+
+                p{
+                    margin-left: 40px;
+                }
+            }
+
+            &--additional_information{
+                h2{
+                    background: $salmao;
+                }
+
+                table{
+                    border-collapse: collapse;
+                    width: 100%;
+
+                    thead{
+                        tr{
+                            th{
+                                padding: 15px;       
+                                font-family: 'Alegreya', serif;    
+                                color: $cinza-claro;             
+                                span{
+                                    font-family: 'Alegreya', serif;    
+                                    color: $cinza-claro;
+                                }
+                            }
+                            background: $roxo;
+
+                        }
+                    }
+
+                    th, td {
+                        padding: 15px;
+                        text-align: left;
+                    }
+
+                    
+                    
+
+                }
+            }
+        }
+
+        
+    }
+}

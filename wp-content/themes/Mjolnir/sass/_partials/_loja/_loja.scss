@@ -1,0 +1,120 @@
+.content-area{
+    .products{
+        .product{
+            display: flex;
+            flex-direction: row-reverse;
+            height: 330px;
+            @media only screen and (min-width:768px) and (max-width:991px) {
+                height: 230px;
+                
+            }
+            @media only screen and (max-width:767px) {
+                height: auto;
+                
+            }
+
+            @media only screen and (max-width:767px) {
+                flex-direction: column;
+            }
+            &-body{
+                width: 50%;
+                @media only screen and (max-width:767px) {
+                    width: 100%;
+                    
+                }
+            }
+
+            .woocommerce-LoopProduct-link{
+                width: 50%;
+                border: none;
+                @media only screen and (max-width:767px) {
+                    width: 100%;
+                    
+                }
+            }
+
+            img{
+                width: 100%;
+                height: 330px;
+                @media only screen and (min-width:768px) and (max-width:991px) {
+                    height: 230px;
+                    
+                }
+
+                @media only screen and (max-width:767px) {
+                    height: auto;
+                    
+                }
+            }
+
+            h2{
+                background: $roxo;
+                background: -webkit-linear-gradient(to left, $salmao , $roxo);
+                background: -webkit-linear-gradient(to left, $salmao , $roxo); /* For Safari 5.1 to 6.0 */
+                background: -o-linear-gradient(to left, $salmao , $roxo); /* For Opera 11.1 to 12.0 */
+                background: -moz-linear-gradient(to left, $salmao , $roxo); /* For Firefox 3.6 to 15 */
+                background: linear-gradient(to left, $salmao , $roxo); /* Standard syntax */
+                color: $cinza-claro;
+                padding: 30px 40px;
+                font-size:24px;
+                text-align: left;
+                &:after{
+                    display: none;
+                }
+            }
+
+            .logged-in .price{
+                display: block;
+                text-align: left;
+                padding: 20px;
+                span{
+                    font-size: 30px;
+                    font-weight: bold;
+                    text-align: left;   
+                    @media only screen and (min-width:768px) and (max-width:991px) {
+                        font-size: 20px;
+                    }
+                    
+                }
+            }
+
+            .add_to_cart_button, .product_type_grouped{
+                margin: 30px 40px;
+                display: block;
+                text-align: right;
+                font-family: 'Alegreya', sans-serif;
+                border: solid 4px $salmao;
+                background: none;
+                width: 150px;
+                height: 40px;
+                font-size: 14px;
+                font-weight: bolder;
+                text-align: center;
+                text-transform: uppercase;
+                padding: 5px;
+                color: $salmao;
+                border-radius: 40px;
+                transition: all .3s ease;
+                text-decoration: none;
+                cursor: pointer;
+                @media only screen and (min-width:768px) and (max-width:991px) {
+                    margin: 20px 40px;
+                }
+
+                &:hover{
+                    background-color: $salmao;
+                    color: $cinza-claro;     
+                    transform:scale(1.1,1.1);   
+                    box-shadow: 0 2px 5px $cinza-escuro;
+                }
+            }
+        }
+        .product:nth-child(even){
+            flex-direction: row;
+            @media only screen and (max-width:767px) {
+                flex-direction: column;
+            }
+            
+        }
+    }
+}

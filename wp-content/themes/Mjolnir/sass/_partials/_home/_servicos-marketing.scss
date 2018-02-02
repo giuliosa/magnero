@@ -1,0 +1,146 @@
+/* Serviços */
+
+ .servicos-marketing{
+    padding: 0;
+    display: flex;
+    background-color: $salmao;
+    height: 100%;
+
+    h5{
+        font-size: 30px;
+    }
+    
+    /* Lista */
+    &__lista-servicos{
+        width: 66.6666666667%;
+        display: flex;
+        flex-direction: column;
+
+        .servico-bloco{
+            display: flex;
+            height: 270px;
+        }
+
+        .foto-servico{
+            width: 50%;
+
+            img{
+                width: 100%;
+                height: 270px;
+            }
+        }
+
+        .corpo-servico{
+            padding:30px 20px;
+            width: 50%;
+            background-color: #eff0f4;
+            
+            p{
+                margin-bottom: 20px;
+            }
+        }
+
+        .servico-bloco:nth-child(2){
+            flex-direction: row-reverse;
+        }
+    }
+
+    /* Aside Serviços */
+    &__aside-servicos{
+        width: 33.3333333333%;
+        height: 100%;
+
+        img{
+            width: 100%;
+            height: 540px;
+        }
+
+        .titulo-servico{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            background-color: $salmao;
+            background: -webkit-linear-gradient( $salmao , $roxo);
+            background: -webkit-linear-gradient( $salmao , $roxo); /* For Safari 5.1 to 6.0 */
+            background: -o-linear-gradient( $salmao , $roxo); /* For Opera 11.1 to 12.0 */
+            background: -moz-linear-gradient( $salmao , $roxo); /* For Firefox 3.6 to 15 */
+            background: linear-gradient( $salmao , $roxo); /* Standard syntax */
+            justify-content: center;
+            align-items: center;
+            height: 266px;
+
+            h5{
+                color:#eff0f4;
+                margin-bottom: 15px;
+            }
+        }
+    }
+ }
+
+ 
+
+/*Tela de tablet*/
+ 
+
+ @media only screen and (min-width:768px) and (max-width:991px) {
+    .servicos-marketing{
+        margin-top:20px;
+
+        &__lista-servicos{
+            width: 100%;
+        }
+
+        &__aside-servicos{
+            opacity: 0;
+            visibility: hidden;
+            width: 0;
+        }
+    }
+
+
+    
+}
+
+/*Tela de telefone*/
+
+@media only screen and (max-width:767px) {
+    
+
+    .servicos-marketing{
+        margin-top:190px;
+
+        &__lista-servicos {
+            width: 100%;
+            .servico-bloco{
+                flex-direction: column;
+
+                .foto-servico{
+                    opacity: 0;
+                    visibility: hidden;
+                    width: 0;
+                    height: 0;
+                }
+
+                .corpo-servico{
+                    width: 100%;
+                    height: 265px;
+                }
+
+                button{
+                    margin-top: 30px;
+                }
+            }
+
+            .servico-bloco:nth-child(2){
+                flex-direction: column;
+            }   
+
+        }
+
+        &__aside-servicos{
+            opacity: 0;
+            visibility: hidden;
+            width: 0;
+        }
+    }
+}

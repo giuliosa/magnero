@@ -1,0 +1,168 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {    
+    overflow-x: hidden;
+    background-image: url("./img/pattern-mini.png");
+    background-repeat: repeat;
+}
+
+h1,h2,h3,h4,h5,h6, .title{
+    font-family: 'Alegreya', serif;    
+    color: $cinza-escuro;
+}
+
+h2 {
+    font-size: 42px;
+    text-align: center;
+    font-weight: bolder;
+    display: block;
+
+    &:after{
+        content: "";
+        display: block;
+        height: 4px;
+        width: 150px;
+        background: $salmao;
+        text-align: center;
+        margin: 20px auto;
+    }
+}
+
+h3 {
+    font-size: 42px;
+    font-weight: bolder;
+    display: block;
+    color: $salmao;
+}
+
+
+a{
+    text-decoration: none;
+    color: $cinza-escuro;
+    transition: all .1s linear;
+
+    &:hover{
+        border-bottom-style: solid;
+        border-bottom-width: 4px;
+        border-bottom-color: $salmao;
+    }
+}
+
+p, .blockquote, span {
+    font-family: 'Lora', Georgia, "Times New Roman", serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+
+}
+
+input, textarea{
+    border: solid 4px lighten($cinza-escuro, 20%);
+    padding: 10px 8px;
+    color: $cinza-escuro;
+    border-radius: 10px;
+    @media only screen and (max-width:767px) {
+        width: 100%;
+    }
+}
+
+textarea{
+    border: solid 4px lighten($cinza-escuro, 20%);
+    padding: 10px 8px;
+    color: $cinza-escuro;
+    border-radius: 10px;
+    resize:none;
+}
+
+.wpcf7-submit{
+    font-family: 'Alegreya', sans-serif;
+    display: block;
+    border: solid 4px $salmao;
+    width: 170px;
+    background: none;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: $salmao;
+    border-radius: 40px;
+    transition: all .3s ease;
+    text-decoration: none;
+    cursor: pointer;
+
+    margin: 10px auto;
+
+    &:hover{
+        background-color: $salmao;
+        color: $cinza-claro;     
+        transform:scale(1.1,1.1);   
+        box-shadow: 0 2px 5px $cinza-escuro;
+    }
+}
+
+
+.ativar{
+    -webkit-transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    visibility:visible !important;
+    opacity: 1 !important;
+}
+
+.desativar{
+  visibility:hidden !important;
+  opacity: 0 !important;
+}
+
+
+.hidden {
+  opacity:0;
+}
+
+.img-circle{
+    border-radius: 50%;
+}
+
+.price{
+    display: none;
+    overflow: hidden;
+}
+
+.logged-in{
+    .price{
+        display: block;
+        overflow: visible;
+        text-align: left;
+        padding:20px 40px;
+        span{
+            font-size: 30px;
+            font-weight: bold;
+            @media only screen and (min-width:768px) and (max-width:991px) {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+
+/* Tela de Tablet */
+@media only screen and (min-width:768px) and (max-width:991px) {
+    h2 {
+        font-size: 38px;
+    }
+}
+
+/* Tela de telefone */
+@media only screen and (max-width:767px) {
+    header .drop {
+        visibility:hidden;
+        opacity: 0;
+    }
+    h2 {
+        font-size: 36px;
+    }
+}

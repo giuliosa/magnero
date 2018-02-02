@@ -1,0 +1,75 @@
+.sidebar-top{
+    background: $salmao;
+    padding: 30px 40px;
+
+    &__categoria{
+        display: flex;
+        flex-direction: row;
+        @media only screen and (max-width:767px) {
+            flex-direction: column-reverse;
+        }
+
+        .flex-widget{
+            display: flex;
+            margin-bottom: 20px;
+            flex-direction: column;
+            width: 50%;
+            @media only screen and (max-width:767px) {
+                text-align: center;
+                width: 100%;
+            }
+            
+
+            h6{
+                font-size: 24px;
+                margin-bottom: 6px;
+            }
+
+            ul{
+                column-count: 3;
+                @media only screen and (max-width:767px) {
+                    column-count: 1;
+
+                }
+                li{
+                    margin-bottom: 8px;
+                    a{
+                        text-decoration: none;
+                        color: $cinza-escuro;
+                        transition: all .1s linear;
+
+                        &:hover{
+                            border-bottom-style: solid;
+                            border-bottom-width: 4px;
+                            border-bottom-color: $roxo;
+                        }
+                    }
+                }
+            }
+
+            .input-group{
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+
+                @media only screen and (max-width:767px) {
+                    justify-content: center;
+                    
+                }
+
+                .form-control{
+                    margin-right: 15px;
+                    @media only screen and (max-width:767px) {
+                        width: 150px;
+
+                    }
+                }
+                
+            }
+
+            
+            
+        }
+    }
+
+}

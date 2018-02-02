@@ -1,0 +1,44 @@
+button, .butn, [type="button"], input.button{
+    font-family: 'Alegreya', sans-serif;
+    display: block;
+    border: solid 4px $salmao;
+    // width: 170px;
+    background: none;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: $salmao;
+    border-radius: 40px;
+    transition: all .3s ease;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover{
+        background-color: $salmao;
+        color: $cinza-claro;     
+        transform:scale(1.1,1.1);   
+        box-shadow: 0 2px 5px $cinza-escuro;
+    }
+}
+
+.butn-roxo{
+    color: $roxo;
+    border: solid 4px $roxo;
+
+    &:hover{
+        background-color: $roxo;
+        color: $cinza-claro;     
+    }
+}
+
+.butn-branco{
+    color: $cinza-claro;
+    border: solid 4px lighten($cinza-escuro, 20%);
+
+    &:hover{
+        background-color: lighten($cinza-escuro, 20%);;
+        color: $roxo;     
+    }
+}
+

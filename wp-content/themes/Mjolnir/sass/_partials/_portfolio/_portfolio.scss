@@ -1,0 +1,239 @@
+.portfolio{
+    margin: 80px 0 80px 40px;
+    display: flex;
+    @media only screen and (max-width:767px) {
+        flex-direction: column;
+        margin: 60px 0;
+        
+    }
+    &__title{
+        width: 60%;
+        @media only screen and (max-width:767px) {
+            width: 100%;
+            margin-left: 30px;
+        }
+        padding-right: 40px;
+        p{
+            @media only screen and (max-width:767px) {
+                padding-right: 20px;
+            }
+        }
+    }
+
+    &__dados{
+        width: 40%;
+        background: $roxo;
+        padding: 40px;
+        @media only screen and (max-width:767px) {
+            width: 100%;
+        }
+        h4{
+            color: $cinza-claro;
+            font-size: 26px;
+            margin-bottom: 15px;
+        }
+
+        h5{
+            color: $cinza-claro;
+            margin-bottom: 15px;
+        }
+
+        ul{
+            li{
+                color: $cinza-claro;
+                font-size: 14px;
+                padding: 8px;
+                margin-bottom: 5px;
+                border: 4px solid $cinza-claro;
+                border-radius: 15px;
+                transition: .3s all ease;
+
+                &:hover{
+                    background: $cinza-claro;
+                    color: $roxo;
+                }
+            }
+        }
+
+    }
+}
+
+.port-servico{
+
+    &__linha{
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        &:nth-child(even){
+            background: $roxo;
+            h2{
+                color: $cinza-claro;
+            }
+
+            p{
+                color: $cinza-claro;
+            }
+            
+        }
+    }
+
+    &__dev{
+        padding: 0 40px;
+        img{
+            width: 100%;
+            margin: 20px 0;
+
+            &.port-servico__dev--imagem-principal{
+                width: 500px;
+                @media only screen and (max-width:767px) {
+                    width: 200px;
+                }
+            }
+        }
+    }
+
+    &__redes-sociais{
+        ul{
+            margin: 40px 0;
+            
+            @media only screen and (max-width:767px) {
+                line-height: 70px;
+                text-align: center;
+            }
+            li{
+                display: inline-block;
+                
+            }
+        }
+
+        a{
+            border: 4px solid $cinza-claro;
+            border-radius: 10px;
+            padding: 10px;
+            font-size: 20px;
+            color: $cinza-claro;
+            width: 50px;
+            height: 50px;
+            transition: all .2s ease-in;
+            &.Instagram{
+                border: 4px solid $instagram;
+                color: $instagram;
+                
+                &:hover{
+                    border: 4px solid $instagram;
+                    background: $instagram;
+                    color: $cinza-claro;
+                }
+            }
+            &.Facebook{
+                border: 4px solid $facebook;
+                color: $facebook;
+                &:hover{
+                    border: 4px solid $facebook;
+                    background: $facebook;
+                    color: $cinza-claro;
+                }
+            }
+            &.Pinterest{
+                border: 4px solid $pinterest;
+                color: $pinterest;
+                &:hover{
+                    border: 4px solid $pinterest;
+                    background: $pinterest;
+                    color: $cinza-claro;
+                }
+            }
+            &.Linkedin{
+                border: 4px solid $linkedin;
+                color: $linkedin;
+                &:hover{
+                    border: 4px solid $linkedin;
+                    background: $linkedin;
+                    color: $cinza-claro;
+                }
+            }
+            &.Twitter{
+                border: 4px solid $twitter;
+                color: $twitter;
+                &:hover{
+                    border: 4px solid $twitter;
+                    background: $twitter;
+                    color: $cinza-claro;
+                }
+            }
+            &.Youtube{
+                border: 4px solid $youtube;
+                color: $youtube;
+                &:hover{
+                    border: 4px solid $youtube;
+                    background: $youtube;
+                    color: $cinza-claro;
+                }
+            }
+        }
+
+        &--imagens{
+            max-width: 600px;
+            margin: 20px auto;
+            column-count: 2;
+            img{
+                max-width: 100%;
+                height: auto;
+                margin-bottom: 20px;
+                transition: all .3s ease;
+                &:hover{
+                    transform: scale(1.5,1.5);
+                }
+            }
+        }
+    }
+    &__video{
+        &--video-incorporado{
+            iframe{
+                width: 600px;
+                height: 400px;
+
+                @media only screen and (max-width:767px) {
+                    width: 200px;
+                    height: 150px;
+                }
+            }
+        }
+    }
+
+    &__logo{
+        &--imagens{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            img{
+                max-width: 100%;
+                height: auto;
+            }
+        }
+
+        img{
+            width: 600px;
+            margin: 40px 0;
+            @media only screen and (max-width:767px) {
+                width: 200px;
+            }
+        }
+
+    }
+
+    &__email{
+        img{
+            width: 600px;
+            margin: 40px 0;
+            @media only screen and (max-width:767px) {
+                width: 200px;
+            }
+        }
+    }
+    
+}

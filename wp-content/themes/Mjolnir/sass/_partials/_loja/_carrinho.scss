@@ -1,0 +1,214 @@
+.woocommerce-cart{
+    .woocommerce{
+
+        .cart-empty, .return-to-shop{
+            margin-left: 40px;
+            font-size: 20px;
+            margin-bottom: 60px;
+        }
+
+        .woocommerce-cart-form{
+            padding: 0 20px;
+            overflow-x:auto;
+            table{
+                border-collapse: collapse;
+                width: 100%;
+                thead{
+                    tr{
+                        th{
+                            padding: 15px;       
+                            font-family: 'Alegreya', serif;    
+                            color: $cinza-escuro;             
+                            span{
+                                font-family: 'Alegreya', serif;    
+                                color: $cinza-escuro;
+                            }
+                        }
+                    }
+                }
+
+                .actions{
+                    .coupon{
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 30px;
+                        input{
+                            margin-left:15px;
+                        }
+                    }
+                }
+
+                th, td {
+                    padding: 15px;
+                    text-align: left;
+
+                    @media only screen and (max-width:767px) {
+                        img{
+                            width: 50px;
+                            height: 100%;
+                        }
+                    }
+                    
+
+                    .remove{
+                        font-size: 20px;
+                        border: none;
+                        font-family: 'Alegreya', serif;    
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+
+        .cart-collaterals{
+            .cross-sells{
+                .products{
+                    padding: 20px 40px;
+                    display: flex;
+                    @media only screen and (max-width:767px) {
+                        padding: 20px;
+                        width: 100%;
+                        flex-direction: column;
+                    }
+                    .product{
+                        @media only screen and (max-width:767px) {
+                            width: 100%;
+                            img{
+                                width: 100%;
+                                height: auto;
+                            }
+                        }
+                        &-body{
+                            margin-left: 40px;
+                            text-align: left;
+
+                            @media only screen and (max-width:767px) {
+                                margin-top: 20px;
+                                margin-left: 0;                                
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                            
+
+                            h2{
+                                &:after{
+                                    display: none;
+                                }
+                            }
+
+                            .add_to_cart_button, .product_type_grouped{
+                                margin: 15px 40px;
+                                display: block;
+                                text-align: right;
+                                font-family: 'Alegreya', sans-serif;
+                                border: solid 4px $salmao;
+                                background: none;
+                                width: 150px;
+                                height: 40px;
+                                font-size: 14px;
+                                font-weight: bolder;
+                                text-align: center;
+                                text-transform: uppercase;
+                                padding: 5px;
+                                color: $salmao;
+                                border-radius: 40px;
+                                transition: all .3s ease;
+                                text-decoration: none;
+                                cursor: pointer;
+                                @media only screen and (min-width:768px) and (max-width:991px) {
+                                    margin: 20px 40px;
+                                }
+
+                                &:hover{
+                                    background-color: $salmao;
+                                    color: $cinza-claro;     
+                                    transform:scale(1.1,1.1);   
+                                    box-shadow: 0 2px 5px $cinza-escuro;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .cart_totals {
+                margin: 40px 0;
+                padding: 0 20px;
+                table{
+                    border-collapse: collapse;
+                    width: 100%;
+
+                    thead{
+                        tr{
+                            th{
+                                padding: 15px;       
+                                font-family: 'Alegreya', serif;    
+                                    color: $cinza-claro;             
+                                span{
+                                    font-family: 'Alegreya', serif;    
+                                    color: $cinza-claro;
+                                }
+                            }
+                            background: $roxo;
+
+                        }
+                    }
+
+                    th, td {
+                        border-bottom: 1px solid $salmao;
+                        padding: 15px;
+                        text-align: left;
+                    }
+
+                    tr:nth-child(even) {
+                        background-color: $cinza-claro;
+                    }
+                }
+
+                .wc-proceed-to-checkout{
+                    a{  
+                        margin-top: 15px;
+                        font-family: 'Alegreya', sans-serif;
+                        display: block;
+                        border: solid 4px $salmao;
+                        // width: 170px;
+                        background: none;
+                        width: 150px;
+                        height: 40px;
+                        font-size: 14px;
+                        font-weight: bolder;
+                        text-align: center;
+                        text-transform: uppercase;
+                        padding: 5px;
+                        color: $salmao;
+                        border-radius: 40px;
+                        transition: all .3s ease;
+                        text-decoration: none;
+                        cursor: pointer;
+
+                        &:hover{
+                            background-color: $salmao;
+                            color: $cinza-claro;     
+                            transform:scale(1.1,1.1);   
+                            box-shadow: 0 2px 5px $cinza-escuro;
+                        }
+                    }
+                }
+            }
+            
+        }
+
+        &-message{
+            padding: 20px;
+            background: $secundary-alert;
+            width: 100%;
+        }
+        &-error{
+            padding: 20px;
+            background: $danger-alert;
+            width: 100%;
+        }
+    }
+}

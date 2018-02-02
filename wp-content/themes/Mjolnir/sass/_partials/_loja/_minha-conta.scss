@@ -1,0 +1,186 @@
+.logged-in{
+    .minha-conta{
+        overflow: visible;
+        display: block;
+        &__title{
+            margin: 80px 40px 40px 40px;
+
+            p{
+                padding-right: 350px;
+                
+                @media only screen and (max-width:767px) {
+                    padding-right: 20px;
+                }
+            }
+        }
+    }
+}
+.minha-conta{
+    display: none;
+    overflow: hidden;
+}
+
+.woocommerce-account.logged-in{
+    .woocommerce{
+        position: relative;
+        padding: 0 40px;
+        margin: 80px 0 60px 0;
+        display: flex;
+        @media only screen and (max-width:767px) {
+            flex-direction: column;
+            padding: 0 20px;
+        }
+
+        &-MyAccount-navigation{
+            width: 20%;
+            @media only screen and (max-width:767px) {
+                width: 100%;
+            }
+
+            ul{
+                li{
+                    padding: 15px;
+                }
+            }
+        }
+
+        &-MyAccount-content{
+            width: 80%;
+            padding: 40px;
+            border: 4px solid $cinza-escuro;
+            border-radius: 15px;
+            background: lighten($cinza-claro, 10%);
+
+            @media only screen and (max-width:767px) {
+                width: 100%;
+                padding: 20px;
+                overflow-x: auto;
+            }
+
+            table{
+                border-collapse: collapse;
+                width: 100%;
+
+                thead{
+                    tr{
+                        th{
+                            padding: 15px;       
+                            font-family: 'Alegreya', serif;    
+                                color: $cinza-claro;             
+                            span{
+                                font-family: 'Alegreya', serif;    
+                                color: $cinza-claro;
+                            }
+                        }
+                        background: $roxo;
+
+                    }
+                }
+
+                th, td {
+                    border-bottom: 1px solid $salmao;
+                    padding: 15px;
+                    text-align: left;
+                }
+
+                tr:nth-child(even) {
+                    background-color: $cinza-claro;
+                }
+                tr{
+                    &.woocommerce-orders-table__row--status-processing{
+                        background: $warning-alert;
+                    }
+
+                    &.woocommerce-orders-table__row--status-completed{
+                        background: $sucess-alert;
+                    }
+
+                    &.woocommerce-orders-table__row--status-on-hold{
+                        background: $primary-alert;
+                    }
+                }
+
+            }
+
+            .u-columns{
+                display: flex;
+                flex-wrap: wrap;
+                padding: 0 ;
+                margin-top: 10px;
+                @media only screen and (max-width:767px) {
+                    flex-direction: column;
+                }
+
+                h3{
+                    font-size: 20px;
+                }
+
+                .col-1, .col-2{
+                    width: 50%;
+                    padding: 0 ;
+                    
+                    @media only screen and (max-width:767px) {
+                        width: 100%;
+                        margin-bottom: 15px;
+                    }
+                }
+
+            }
+        }
+
+        &-message{
+            position: absolute;
+            padding: 20px;
+            top: -80px;
+            left: 0;
+            background: $secundary-alert;
+            width: 100%;
+        }
+        &-error{
+            position: absolute;
+            padding: 20px;
+            top: -110px;
+            left: 0;
+            background: $danger-alert;
+            width: 100%;
+        }
+    }
+
+    
+}
+
+.woocommerce{
+    &-error{
+        padding: 15px 40px;
+        margin: 40px 0 0 0;
+        color: $cinza-claro;
+        background: $danger-alert;
+    }
+
+    // Estilo do login
+    .u-columns{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 50px 40px;
+
+        .col-1{
+            width: 50%;
+            padding: 0 20px;
+        }
+
+        .col-2{
+            width: 50%;
+            padding: 0 20px;
+        }
+    }
+
+    &-form-row, .form-row{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+
+
+
+}
+
