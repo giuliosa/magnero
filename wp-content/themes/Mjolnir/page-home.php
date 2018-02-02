@@ -19,7 +19,7 @@ if (have_posts()) : while (have_posts()) : the_post();
     <span id='text'></span><div class='console-underscore' id='console'>&#95;</div></h1>
 
     <p>Lorem Ipsum dolor sit amet.</p>
-    <button href="" class="butn">Peça um orçamento</button>
+    <button onClick="location.href='contato'">Peça um orçamento</button>
 </section>
 
 <!-- Seção com os serviços -->
