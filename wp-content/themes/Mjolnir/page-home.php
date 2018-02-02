@@ -18,7 +18,7 @@ if (have_posts()) : while (have_posts()) : the_post();
         negócio com <br>
     <span id='text'></span><div class='console-underscore' id='console'>&#95;</div></h1>
 
-    <p>Lorem Ipsum dolor sit amet.</p>
+    <p>Usando as mídias digitais para ajudar seu negócio a crescer.</p>
     <button onClick="location.href='contato'">Peça um orçamento</button>
 </section>
 
@@ -70,7 +70,7 @@ if (have_posts()) : while (have_posts()) : the_post();
         </div>
         <div class="titulo-servico">
             <h5>Serviços</h5><br>
-            <button  onClick="location.href='wordpress/loja'">Veja Mais</button>
+            <button  onClick="location.href='servicos'">Veja Mais</button>
         </div>
     </aside>
 </section>
