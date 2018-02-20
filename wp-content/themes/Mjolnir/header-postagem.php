@@ -10,7 +10,7 @@ $url .= $_SERVER['REQUEST_URI'];
     <meta charset="utf-8">
     <!-- <title>Magnero <?php // the_field('titulo'); ?></title> -->
     <meta name="description" content="<?php // the_field('descricao'); ?>" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=320, height=device-height, target-densitydpi=medium-dpi" />
     <meta name="theme-color" content="#f3615f ">
     <meta name="keywords" content="<?php // the_field('palavras_chave'); ?>"/>
     <meta name="robots" content="index, follow">
