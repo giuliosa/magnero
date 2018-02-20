@@ -18,7 +18,7 @@ function mjonir_setup_theme(){
     // Registrar o Menu
     register_nav_menu( 'header-menu', __( 'Header Menu', 'mjonir' ) );
     
-    add_action( 'init', 'register_my_menu' );
+    // add_action( 'init', 'register_my_menu' );
 
     
 
