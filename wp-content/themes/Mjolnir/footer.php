@@ -10,7 +10,11 @@
         </div>
 
         <div class="footer__container--col-4">
-            <p>Somos uma agência de comunicação e marketing localizada no Recife antigo. Oferecemos aos nossos clientes diversas ferramentas para que eles consigar aumentar a visibilidade de suas marcas, atrair novos negócios e, assim, aumentar suas vendas.</p>
+            <p>
+                Somos uma agência de comunicação e marketing localizada no Recife Antigo. 
+                Oferecemos aos nossos clientes diversas ferramentas para que eles consigam 
+                aumentar a visibilidade de suas marcas, atrair novos negócios e, assim, maximizar suas vendas.
+            </p>
         </div>
 
         <div class="footer__container--col-4">

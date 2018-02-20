@@ -10,8 +10,8 @@ $url .= $_SERVER['REQUEST_URI'];
     <meta charset="utf-8">
     <!-- <title>Magnero <?php // the_field('titulo'); ?></title> -->
     <meta name="description" content="<?php // the_field('descricao'); ?>" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#f3615f ">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=320, height=device-height, target-densitydpi=medium-dpi" />
+    <meta name="theme-color" content="#f3615f">
     <meta name="keywords" content="<?php // the_field('palavras_chave'); ?>"/>
     <meta name="robots" content="index, follow">
     <meta name="author" content="Giulio Sá">
@@ -22,7 +22,7 @@ $url .= $_SERVER['REQUEST_URI'];
 
     <!-- Add to homescreen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="#415f9d">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#f3615f">
     <meta name="apple-mobile-web-app-title" content="Preservtec">
 
     <!-- para o Twitter Card -->

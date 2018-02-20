@@ -18,8 +18,8 @@ if (have_posts()) : while (have_posts()) : the_post();
         negócio com <br>
     <span id='text'></span><div class='console-underscore' id='console'>&#95;</div></h1>
 
-    <p>Usando as mídias digitais para ajudar seu negócio a crescer.</p>
-    <button onClick="location.href='contato'">Peça um orçamento</button>
+    <p>Usando as mídias digitais para ajudar seu negócio a crescer</p>
+    <button href="" class="butn">Peça um orçamento</button>
 </section>
 
 <!-- Seção com os serviços -->
@@ -27,7 +27,7 @@ if (have_posts()) : while (have_posts()) : the_post();
 <section class="frase-destaque">
     <div class="frase-destaque__bloco">
         <h2>Desenvolvemos estratégias, produtos e serviços digitais</h2>
-        <p>Somos uma agência de comunicação e marketing localizada no Recife antigo. Oferecemos aos nossos clientes diversas ferramentas para que eles consigar aumentar a visibilidade de suas marcas, atrair novos negócios e, assim, aumentar suas vendas.</p>
+        <p>Somos uma agência de comunicação e marketing localizada no Recife Antigo. Oferecemos aos nossos clientes diversas ferramentas para que eles consigar aumentar a visibilidade de suas marcas, atrair novos negócios e, assim, aumentar suas vendas.</p>
     </div>
 </section>
 
@@ -70,7 +70,7 @@ if (have_posts()) : while (have_posts()) : the_post();
         </div>
         <div class="titulo-servico">
             <h5>Serviços</h5><br>
-            <button  onClick="location.href='servicos'">Veja Mais</button>
+            <button  onClick="location.href='wordpress/loja'">Veja Mais</button>
         </div>
     </aside>
 </section>
@@ -80,7 +80,7 @@ if (have_posts()) : while (have_posts()) : the_post();
 
 
 
-
+<!-- 
 <section class="portifolio-marketing">
     <h2>Nossos Clientes</h2>
     <p>Alguns de nossos mais recentes clientes</p>
@@ -103,7 +103,7 @@ if (have_posts()) : while (have_posts()) : the_post();
         </div>
         
     </div>
-</section>
+</section> -->
 
 
 <?php //include(TEMPLATEPATH . '/inc/news.php'); ?>

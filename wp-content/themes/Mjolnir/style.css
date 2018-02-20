@@ -19,7 +19,8 @@ body {
 
 h1, h2, h3, h4, h5, h6, .title {
   font-family: 'Alegreya', serif;
-  color: #333; }
+  color: #333;
+  font-weight: bolder; }
 
 h2 {
   font-size: 42px;

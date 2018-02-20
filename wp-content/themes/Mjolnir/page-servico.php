@@ -59,7 +59,7 @@ if (have_posts()) : while (have_posts()) : the_post();
                 <div class="lista__coluna__linha__head--text">
 
                     <p>
-                        Use as estratégias de SEO para ranquear bem o seu site, e use a ferramenta do Google para analisar o desempenho do mesmo
+                        Para atrair clientes com máxima eficácia e rapidez, a Magnero te ajuda a desenvolver campanhas utilizando o Google AdWords, que é a principal ferramenta de publicidade do Google. 
                     </p>
                     <button onClick="location.href='contato'">Peça um orçamento</button>
                 </div>
@@ -74,10 +74,7 @@ if (have_posts()) : while (have_posts()) : the_post();
                 <div class="lista__coluna__linha__head--text">
 
                     <p>
-                        O Facebook é a rede social mais acessada do mundo com mais de 2 bilhões de usuários ativos. 
-                         É importante estar presente onde há grande potencial 
-                        para alcançar novos clientes.
-                        É crucial conhecer regras e algoritmos do Facebook para alcançar um maior número de pessoas. 
+                         O Facebook é a rede social mais acessada do mundo com mais de 2 bilhões de usuários ativos. É importante estar presente onde há grande potencial para alcançar novos clientes. É crucial conhecer regras e algoritmos do Facebook para alcançar um maior número de pessoas. 
                     </p>
                     <button onClick="location.href='contato'">Peça um orçamento</button>
                 </div>
@@ -92,9 +89,7 @@ if (have_posts()) : while (have_posts()) : the_post();
                 <div class="lista__coluna__linha__head--text">
 
                     <p>
-                        O Instagram já se tornou a segunda maior rede social do mundo. São mais de 400 milhões 
-                        de usuários ativos. Conhecer as regras de uso do Instagram e elaborar uma estratégia específica para seu 
-                        tipo de negócio pode ser determinante para o sucesso de um empreendimento. 
+                        O Instagram já se tornou a segunda maior rede social do mundo. São mais de 400 milhões de usuários ativos. Conhecer as regras de uso do Instagram e elaborar uma estratégia específica para seu tipo de negócio pode ser determinante para o sucesso de um empreendimento. 
                     </p>
                     <button onClick="location.href='contato'">Peça um orçamento</button>
                 </div>
@@ -109,9 +104,7 @@ if (have_posts()) : while (have_posts()) : the_post();
                 <div class="lista__coluna__linha__head--text">
 
                     <p>
-                        O Youtube é uma das plataformas de vídeos mais populares nos últimos tempos. Toda uma geração de jovens 
-                        cresceu assistindo vídeos no Youtube. Ajudaremos você a criar um canal e produzir os vídeos, ou te ajudar
-                        a fazer propaganda nessa plataforma
+                        O Youtube é uma das plataformas de vídeos mais populares nos últimos tempos. Toda uma geração de jovens cresceu assistindo vídeos no Youtube. Ajudaremos você a criar um canal e produzir os vídeos, ou te ajudar a fazer propaganda nessa plataforma 
                     </p>
                     <button onClick="location.href='contato'">Peça um orçamento</button>
                 </div>
@@ -126,8 +119,7 @@ if (have_posts()) : while (have_posts()) : the_post();
                 <div class="lista__coluna__linha__head--text">
 
                     <p>
-                        Criação de logo, imagens para publicações, fotos de produtos, apresentação de PowerPoint, branding e materiais
-                        gráficos, também são serviços que oferecemos para vocês
+                         Criação de logo, imagens para publicações, fotos de produtos, apresentação de PowerPoint, branding e materiais gráficos, também são serviços que oferecemos para vocês 
                     </p>
                     <button onClick="location.href='contato'">Peça um orçamento</button>
                 </div>

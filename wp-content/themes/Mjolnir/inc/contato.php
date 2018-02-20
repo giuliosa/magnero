@@ -18,8 +18,8 @@
     <div class="contato__formulario">
         <h2>Começe seu projeto</h2>
         <p>
-            Não perca tempo, e mande agora mesmo seu pedido de serviço. É muito simples, digite seus dados e mande 
-            uma mensagem para nós, explicando o serviço que você quer.
+            Não perca tempo e envie agora mesmo seu pedido de serviço. É muito simples!
+            Digite seus dados e nos envie uma mensagem com uma breve explicação do seu negócio e de como podemos ajudá-lo a crescer. 
         </p>
 
         <?php the_field('formulario', $home); ?>
