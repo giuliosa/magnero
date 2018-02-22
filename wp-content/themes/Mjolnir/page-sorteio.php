@@ -23,7 +23,7 @@
 
 <section class="regras">
     <div class="regras__body">
-        <h3>Lorem Ipsum Dolor Sit</h3>
+        <h3>Entenda como funciona</h3>
         <p>
             A Magnero está inaugurando sua loja virtual e, para comemorar, vai sortear um vídeo de até 
             1 minuto produzido por nossa equipe. Pode ser vídeo institucional, clipe musical, vlog para Youtube, 
