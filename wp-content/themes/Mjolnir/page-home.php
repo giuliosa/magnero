@@ -19,7 +19,7 @@ if (have_posts()) : while (have_posts()) : the_post();
     <span id='text'></span><div class='console-underscore' id='console'>&#95;</div></h1>
 
     <p>Usando as mídias digitais para ajudar seu negócio a crescer</p>
-    <button href="" class="butn">Peça um orçamento</button>
+    <button onClick="location.href='/contato/#se-inscreva'" href="" class="butn">Peça um orçamento</button>
 </section>
 
 <!-- Seção com os serviços -->
@@ -70,7 +70,7 @@ if (have_posts()) : while (have_posts()) : the_post();
         </div>
         <div class="titulo-servico">
             <h5>Serviços</h5><br>
-            <button  onClick="location.href='wordpress/loja'">Veja Mais</button>
+            <button  onClick="location.href='servico'">Veja Mais</button>
         </div>
     </aside>
 </section>
