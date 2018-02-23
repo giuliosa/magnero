@@ -50,7 +50,7 @@
         </ul>
 
         <p>
-            O sorteio será realizado no dia 01/03/2018 às 20:00 ao vivo no lançamento
+            O sorteio será realizado no dia 28/03/2018 às 20:00 ao vivo no lançamento
             do nosso canal no Youtube (Agência Magnero). O resultado também será divulgado
             em nossas redes sociais (Facebook e Instagram) e em nosso site.
             Não perca essa oportunidade e compartilhe nossa promoção com seus amigos!
