@@ -1,4 +1,4 @@
-<footer>
+<footer class="footer-sorteio">
     <ul class="footer__container--col-4__social">
         <a href="https://www.facebook.com/agenciamagnero/" target="_blank">
             <li color="magenta"><i class="fab fa-facebook-f"></i></li>
