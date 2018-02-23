@@ -2246,7 +2246,7 @@ button, .butn, [type="button"], input.button {
       .form__formulario form p {
         margin-bottom: 15px; }
 
-footer {
+.footer-sorteio {
   background: #26053f;
   padding: 80px;
   display: flex;
