@@ -48,6 +48,9 @@ $url .= $_SERVER['REQUEST_URI'];
     <!-- Pinterest -->
     <meta name="p:domain_verify" content="f3848becf6a26aaadc9a110cca2e55d2"/>
 
+    <!-- Verificação do search console -->
+    <meta name="google-site-verification" content="84e1zmnl20f_XFAEmh1A9LfVGnhnuhSTOc_m5IJfvbg" />
+
     <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon-16x16.png">
     <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon-32x32.png">
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
