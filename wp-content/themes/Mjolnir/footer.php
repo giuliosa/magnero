@@ -48,6 +48,9 @@
                 <a href="https://instagram.com/agenciamagnero" target="_blank">
                     <li><i class="fab fa-instagram"></i></li>
                 </a>
+                <a href="https://instagram.com/agenciamagnero" target="_blank">
+                    <li><i class="fab fa-pinterest-p"></i></li>
+                </a>
             </ul>
         </div>
     </div>
@@ -70,16 +73,6 @@
 <!-- WP FOOTER -->
 <?php wp_footer(); ?>
 <!-- FIM WP FOOTER -->
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114700344-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-114700344-1');
-</script>
-
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSy58jX-AnCLhdZw4Msbbhwg6l_8kP0qw&callback=initMap"></script>
 </body>
 

@@ -66,7 +66,7 @@ if (have_posts()) : while (have_posts()) : the_post();
     </div>
     <aside class="servicos-marketing__aside-servicos">
         <div class="foto-whatever">
-            <img src="<?php echo get_template_directory_uri() ?>/img/wow.png" alt="">
+            <img src="<?php echo get_template_directory_uri() ?>/img/recife.png" alt="Recife Visto de Cima">
         </div>
         <div class="titulo-servico">
             <h5>Serviços</h5><br>
@@ -77,45 +77,15 @@ if (have_posts()) : while (have_posts()) : the_post();
 
 <!-- Seção como funciona -->
 <?php include(TEMPLATEPATH . '/inc/como-funciona.php'); ?>
-
-
-
-<!-- 
-<section class="portifolio-marketing">
-    <h2>Nossos Clientes</h2>
-    <p>Alguns de nossos mais recentes clientes</p>
-    <div class="portifolio-marketing__linha">
-        <div class="portifolio-marketing__linha__cliente">
-            <img src="<?php echo get_template_directory_uri() ?>/img/elo.png" alt="Logo do cliente">
-            <button onClick="location.href='wordpress/portfolio'">Veja mais</button>
-        </div>
-        <div class="portifolio-marketing__linha__cliente">
-            <img src="<?php echo get_template_directory_uri() ?>/img/biglogo.png" alt="Logo do cliente">
-            <button onClick="location.href='wordpress/portfolio'">Veja mais</button>
-        </div>
-        <div class="portifolio-marketing__linha__cliente">
-            <img src="<?php echo get_template_directory_uri() ?>/img/logo.png" alt="Logo do cliente">
-            <button onClick="location.href='wordpress/portfolio'">Veja mais</button>
-        </div>
-        <div class="portifolio-marketing__linha__cliente">
-            <img src="<?php echo get_template_directory_uri() ?>/img/logo-sem-bkg2.png" alt="Logo do cliente">
-            <button onClick="location.href='wordpress/portfolio'">Veja mais</button>
-        </div>
-        
-    </div>
-</section> -->
-
-
 <?php //include(TEMPLATEPATH . '/inc/news.php'); ?>
-<h2>Contato</h2>
+<h2 class="titulo-do-contato">Contato</h2>
 <?php include(TEMPLATEPATH . '/inc/contato.php'); ?>
 
 
 <?php
     //Fim do loop do wordpress
-endwhile;
-else : endif;
+    endwhile; else : endif;
 
     //Pega o template do footer
-get_footer();
+    get_footer();
 ?>
