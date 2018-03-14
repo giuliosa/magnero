@@ -45,24 +45,12 @@
 
         // Registra o Modernizr
         wp_register_script( 'mjonir_modernizr', get_template_directory_uri() . '/js/libs/modernizr.custom.45655.js', array(), "4565", true );
-
-        // Registra o bootstrap
-        wp_register_script( 'mjonir_bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), false, true );
-
-        // Registra o owl carousel (Precisa estar no Header)
-        wp_register_script( 'mjonir_owl.carousel', get_template_directory_uri() . '/js/libs/owl.carousel.min.js', array('jquery'), false, false );
-
-        // Registra o Google Maps Api
-        wp_register_script( 'mjonir_maps', get_template_directory_uri() . '/js/map.js', array(), false, true );
-
+    
         // Registra o Font Awesome
         wp_register_script( 'mjonir_font-awesome', get_template_directory_uri() . '/js/fontawesome-all.min.js', array(), false, true );
 
         // Coloca script no site
         wp_enqueue_script( 'mjonir_modernizr' );
         wp_enqueue_script( 'mjonir_main-script' );
-        // wp_enqueue_script( 'mjonir_bootstrap' );
-        // wp_enqueue_script( 'mjonir_owl.carousel' );
-        // wp_enqueue_script( 'maps' );
         wp_enqueue_script( 'mjonir_font-awesome' );
     }
