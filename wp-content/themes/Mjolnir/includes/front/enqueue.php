@@ -24,11 +24,11 @@
 
 
         
-        wp_enqueue_style( 'mjonir_reset' );
-        wp_enqueue_style( 'mjonir_normalize' );
+        // wp_enqueue_style( 'mjonir_reset' );
+        // wp_enqueue_style( 'mjonir_normalize' );
         // wp_enqueue_style( 'mjonir_bootstrap' );
         wp_enqueue_style( 'mjonir_google_fonts' );
-        wp_enqueue_style( 'mjonir_fa-svg' );
+        // wp_enqueue_style( 'mjonir_fa-svg' );
         wp_enqueue_style( 'mjonir_style' );
 
         // Desregistra o jQuery do Wordpress
