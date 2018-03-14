@@ -62,7 +62,10 @@ $url .= $_SERVER['REQUEST_URI'];
 </head>
 
 <body <?php body_class('corpo'); ?> >
-    <header>
+    <a href="#header" class="back-to-top"><i class="fas fa-angle-up"></i></a>
+
+
+    <header id="header">
           <nav class="header-principal">
               
             <div class="header-principal__left">
