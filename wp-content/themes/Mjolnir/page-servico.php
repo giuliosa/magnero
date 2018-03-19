@@ -35,7 +35,7 @@ if (have_posts()) : while (have_posts()) : the_post();
                 </div>
             </div>
             <div class="lista__coluna__linha__body">
-                <img src="<?php echo get_template_directory_uri() ?>/img/g4402.png" alt="Imagem retratando landing pages">
+                <img src="<?php echo get_template_directory_uri() ?>/img/servico-3.png" alt="Imagem retratando landing pages">
             </div>
         </div>
         <div class="lista__coluna__linha">
@@ -50,7 +50,7 @@ if (have_posts()) : while (have_posts()) : the_post();
                 </div>
             </div>
             <div class="lista__coluna__linha__body">
-                <img src="<?php echo get_template_directory_uri() ?>/img/g4386.png" alt="Imagem retratando SEO e Analytics">
+                <img src="<?php echo get_template_directory_uri() ?>/img/servico-1.png" alt="Imagem retratando SEO e Analytics">
             </div>
         </div>
         <div class="lista__coluna__linha">
@@ -65,7 +65,7 @@ if (have_posts()) : while (have_posts()) : the_post();
                 </div>
             </div>
             <div class="lista__coluna__linha__body">
-                <img src="<?php echo get_template_directory_uri() ?>/img/postagem.png" alt="Imagem retratando SEO e Analytics">
+                <img src="<?php echo get_template_directory_uri() ?>/img/servico-7.png" alt="Imagem retratando SEO e Analytics">
             </div>
         </div>
         <div class="lista__coluna__linha">
@@ -80,7 +80,7 @@ if (have_posts()) : while (have_posts()) : the_post();
                 </div>
             </div>
             <div class="lista__coluna__linha__body">
-                <img src="<?php echo get_template_directory_uri() ?>/img/postagem-2.png" alt="Imagem retratando social media">
+                <img src="<?php echo get_template_directory_uri() ?>/img/servico-5.png" alt="Imagem retratando social media">
             </div>
         </div>
         <div class="lista__coluna__linha">
@@ -95,7 +95,7 @@ if (have_posts()) : while (have_posts()) : the_post();
                 </div>
             </div>
             <div class="lista__coluna__linha__body">
-                <img src="<?php echo get_template_directory_uri() ?>/img/g4378.png" alt="Imagem retratando social media">
+                <img src="<?php echo get_template_directory_uri() ?>/img/servico-6.png" alt="Imagem retratando social media">
             </div>
         </div>
         <div class="lista__coluna__linha">
@@ -110,7 +110,7 @@ if (have_posts()) : while (have_posts()) : the_post();
                 </div>
             </div>
             <div class="lista__coluna__linha__body">
-                <img src="<?php echo get_template_directory_uri() ?>/img/g4370.png" alt="Imagem retratando social media">
+                <img src="<?php echo get_template_directory_uri() ?>/img/servico-4.png" alt="Imagem retratando social media">
             </div>
         </div>
         <div class="lista__coluna__linha">
@@ -125,7 +125,7 @@ if (have_posts()) : while (have_posts()) : the_post();
                 </div>
             </div>
             <div class="lista__coluna__linha__body">
-                <img src="<?php echo get_template_directory_uri() ?>/img/g4374.png" alt="Imagem retratando social media">
+                <img src="<?php echo get_template_directory_uri() ?>/img/servico-2.png" alt="Imagem retratando social media">
             </div>
         </div>
     </div>
