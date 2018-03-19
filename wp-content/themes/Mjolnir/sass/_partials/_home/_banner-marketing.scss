@@ -53,8 +53,8 @@
     position: relative;
     height: 300px;
     @media only screen and (max-width:767px) {
-        margin-top:720px;
-        height: 150px;
+        margin-top:580px;
+        height: auto;
     }
     
     &__bloco{
@@ -69,8 +69,10 @@
         border-radius: 30px; 
 
         @media only screen and (max-width:767px) {
+            position: relative;
             padding: 30px 20px;
-            top:-20px;
+            // top:-20px;
+
             margin:0;
             flex-direction: column;
             border-radius: 0; 
@@ -109,7 +111,7 @@
         height: 300px;
 
         &__bloco{
-        padding: 30px;
+            padding: 30px;
         }
     }    
 
