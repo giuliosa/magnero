@@ -2,4 +2,9 @@ Sitemap: https://magnero.com.br/sitemap.xml
 Sitemap: https://magnero.com.br/news-sitemap.xml
 User-agent: *
 Disallow: /wp-admin/
-Allow: /wp-admin/admin-ajax.php
+Disallow: /wp-admin/admin-ajax.php
+Disallow: /eloautomoveis-com-br_/
+Disallow: /pagina-exemplo/
+Disallow: /teste/
+Disallow: /image4820/
+
