@@ -3,7 +3,7 @@
 <section id="orcamento" class="contato">
     <div class="contato__linha">
         <div id="map-canvas" class="contato--mapa"></div>
-        <script type="text/javascript">
+        <script async defer type="text/javascript">
             function initMap() {
                 var uluru = { lat: -8.061825, lng: -34.871674 };
                 var map = new google.maps.Map(document.getElementById('map-canvas'), {
