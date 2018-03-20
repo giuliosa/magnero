@@ -3,6 +3,19 @@
 <section id="orcamento" class="contato">
     <div class="contato__linha">
         <div id="map-canvas" class="contato--mapa"></div>
+        <script type="text/javascript">
+            function initMap() {
+                var uluru = { lat: -8.061825, lng: -34.871674 };
+                var map = new google.maps.Map(document.getElementById('map-canvas'), {
+                    zoom: 18,
+                    center: uluru
+                });
+                var marker = new google.maps.Marker({
+                    position: uluru,
+                    map: map
+                });
+            }
+        </script>
         <div class="contato__linha__endereco">
             <h3>Endereço</h3>
             <p>Rua Domingos José Martins, 75 sala 404, Recife-PE</p>
