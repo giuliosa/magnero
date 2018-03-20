@@ -1,9 +1,4 @@
-<aside>
-    
-    <div class="categoria">
-        <h3>Categorias</h3>
-        <ul>
-        <?php
+<aside><div class="categoria"><h3>Categorias</h3><ul> <?php
         $args = array(
             'orderby' => 'name',
             'order' => 'ASC'
@@ -14,8 +9,4 @@
                 '" title="' . sprintf(__("Ver postagens em %s"), $category->name) .
                 '" ' . '> -' . $category->name . '</a> ';
         }
-        ?>
-        </ul>
-    </div>
-
-</aside>
+        ?> </ul></div></aside>
