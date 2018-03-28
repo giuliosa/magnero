@@ -8,6 +8,7 @@ body {
     overflow-x: hidden;
     background-image: url("./img/pattern-mini.png");
     background-repeat: repeat;
+    background-attachment: fixed;
 }
 
 h1,h2,h3,h4,h5,h6, .title{
@@ -146,6 +147,27 @@ textarea{
                 font-size: 20px;
             }
         }
+    }
+}
+
+.back-to-top{
+    background-color: darken($roxo, 6% );
+    z-index: 99;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    color: $cinza-claro;
+    font-size: 35px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    bottom: 30px;
+    right: 30px;
+
+    &:hover{
+        border-bottom: none;
+        transform:scale(1.1,1.1); 
     }
 }
 

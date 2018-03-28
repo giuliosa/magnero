@@ -23,6 +23,14 @@
                     width: 100px;
                 }
             }
+
+            svg{
+                width: 150px;
+                height: auto;
+                @media only screen and (max-width:767px) {
+                    width: 100px;
+                }
+            }
         }
     }
 

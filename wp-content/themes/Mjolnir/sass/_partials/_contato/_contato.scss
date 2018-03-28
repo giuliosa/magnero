@@ -1,4 +1,10 @@
+.titulo-do-contato{
+    margin-top:40px;
+}
+
 .contato{
+
+    padding-bottom: 40px;
 
     &__title{
         margin: 80px 40px;
@@ -18,7 +24,7 @@
         margin-top: 40px;
         margin-bottom: 40px;
         color: $cinza-claro;
-        background-image: url("./img/city.png");
+        background-image: url("./img/ruas-de-recife.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -106,7 +112,7 @@
 
     &--mapa{
         width: 50%;
-        height: 300px;
+        height: 400px;
         // overflow: visible !important;
         // position: unset !important;
 

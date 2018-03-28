@@ -7,12 +7,18 @@ Description: Tema criado para a Magnero
 Version: 1.0.1
 */
 
+
+@import '_partials/_plugins/_reset';
+@import '_partials/_plugins/_normalize';
+@import '_partials/_plugins/_fa_svg';
 @import '_variables';
 @import '_globals';
 @import '_partials/_header';
 @import '_partials/_social-buttons';
 @import '_partials/_botao';
 @import '_partials/_newsletter';
+@import '_partials/_frase';
+@import '_partials/_footer';
 @import '_partials/_sidebar/_sidebar-top';
 @import '_partials/_home/_banner-marketing';
 @import '_partials/_home/_animacao-titulo';
@@ -31,5 +37,4 @@ Version: 1.0.1
 @import '_partials/_loja/_carrinho';
 @import '_partials/_loja/_finaliza-compra';
 @import '_partials/_loja/_single-product';
-@import '_partials/frase';
-@import '_partials/footer';
+@import '_partials/_sorteio/_sorteio';

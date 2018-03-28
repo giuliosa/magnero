@@ -42,9 +42,7 @@ get_header( 'shop' ); ?>
 				<div class="servicos__title">
 					<h3>Serviços oferecidos</h3>
 					<p>
-						Desta maneira, a crescente influência da mídia ainda não 
-						demonstrou convincentemente que vai participar na mudança 
-						das condições inegavelmente apropriadas.
+						Conheça um pouco sobre todos os serviços que nós oferecemos.
 					</p>
 				</div>
 			</section>
